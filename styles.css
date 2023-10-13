@@ -1,8 +1,7 @@
 body {
     background-color:black;
-    -moz-user-select: none;
-     -khtml-user-select: none;
-     -webkit-user-select: none;
+
+
   }
   
   .reels {
@@ -205,20 +204,21 @@ body {
   #spin {
     height: 10vh;
     width: 17vw;
-    border-color:black;
-    border-radius:6%;
+    border-color:rgb(225, 174, 197);
+    border-radius:20%;
     color:white;
-    box-shadow: 0px 15px 10px black;
+    box-shadow: 0px 15px 10px rgb(86, 26, 59);
     font-family:courier;
-    font-weight:bold;
-    font-size:120%;
+    font-weight:medium;
+    font-size:100%;
     text-align:center;
-    background-image:radial-gradient(red, black);
+    background-image:radial-gradient(rgb(170, 37, 106), rgb(44, 8, 32));
     position:relative;
     left:77%;
     max-width:130px;
     top:86vh;
     overflow:hidden;
+    text-transform:uppercase;
   }
   
   #spin:active {
